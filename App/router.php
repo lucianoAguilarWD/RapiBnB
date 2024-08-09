@@ -25,8 +25,8 @@ class Router
     public function run()
     {
         $session = new Session();
-        $conexion = new Connection();
-        $connect = $conexion->getConnection();
+        $conexion = new Conexion();
+        $connect = $conexion->getConexion();
         $controller = new $this->controller($connect, $session);
         $method = $this->method;
         $controller->$method();
