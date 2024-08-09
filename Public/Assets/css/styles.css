@@ -1,0 +1,155 @@
+
+.RapiBnB-nav{
+    display: flex;
+    justify-content:right;
+}
+
+.RapiBnB-nav a{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    text-decoration: none !important;
+    color: #CCCCCC;
+}
+
+a{
+    color: #CCCCCC;
+}
+
+.dropdown-menu :hover{
+    background-color: white;
+    color: #0047AB;
+}
+
+
+/*------------------ footer -------------------*/
+
+body {
+    font-family: Roboto;
+}
+
+p{
+    font-size: 14px;
+}
+
+.RapiBnB-footer{
+    color:#CCCCCC;
+    background-color:#0047AB;
+    border: white;
+    border: 40px;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+} 
+
+
+
+.RapiBnB-footer a{
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+.RapiBnB-footer h3{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    text-decoration: none !important;
+    color: #CCCCCC;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.RapiBnB-footer .list-group-item{
+    color:#CCCCCC;
+    background: #0047AB;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.RapiBnB-footer .list-group-item:hover{
+    background:#000080;
+}
+
+.RapiBnB-footer .btn-social i{
+    color:#CCCCCC;
+}
+
+.RapiBnB-footer .btn-social i:hover{
+    color:#000080;
+}
+
+@media only screen and(max-width:768px){
+    .RapiBnB-footer .btn-social{
+        display: inline-block;
+        margin-top: 15px;
+    }
+}
+
+/*----------------------------------------------*/
+
+/*------------------ botones -------------------*/
+.confirmacion{
+    padding: 10px 25px;
+    border: none;
+    font-size: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+    background: #4169E1;
+    color: #CCCCCC;
+}
+
+.confirmacion:hover{
+    background: #0047AB;
+    color: #CCCCCC;
+}
+/*----------------------------------------------*/
+/*------------------ card -------------------*/
+
+.card-header{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+    background-color:#0047AB;
+    color: #CCCCCC;
+}
+
+.card-footer{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+    background-color:#0047AB;
+    color: #CCCCCC;
+}
+/*----------------------------------------------*/
+
+section{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+form{
+    background-color: white;
+}
+
+form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: navy;
+}
+
+label{
+    font-weight: bold; 
+    color: #333; 
+    font-size: 16px; 
+    margin-right: 10px;
+}
