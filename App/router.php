@@ -15,7 +15,7 @@ class Router
 
         $url = explode('/', URL);
 
-        $this->controller = !empty($url[1]) ? $url[1] : 'page';
+        $this->controller = !empty($url[1]) ? $url[1] : 'Page';
         $this->method = !empty($url[2]) ? $url[2] : 'home';
 
         $this->controller = $this->controller . 'Controller';
